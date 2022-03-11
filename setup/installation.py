@@ -59,5 +59,6 @@ def install_todo():
 
     if (len(sys.argv) == 1) and sys.argv[0] == "two_do.py":
         os.system("python3 -m PyInstaller --onefile two_do.py")
+        os.system("IFS=$'\n' read -rd ':' -a array <<< '$PATH'")
         os.system("chmod +x dist/two_do")
-        os.system("sudo cp dist/two_do /usr/local/bin/")
+        os.system("sudo cp dist/two_do $array")
