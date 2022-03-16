@@ -26,6 +26,14 @@ $ cd Downloads/
 $ sudo cp two_do /usr/local/bin/
 ```
 
+You should now be able to run the program just by typing
+
+```
+$ two_do
+```
+
+When a installer prompt pops up proceed with the installation, do not worry about it. It is just creating the empty files on your computer where it will store the goals. If using the inbuilt installer which is discussed in 1.1.2. It does a bit more than that. I would highly suggest using this method and not the second one.
+
 #### 1.1.2 Using the inbuilt installer
 
 two_do installation using the inbuilt installer is currently very unstable. The installation will currently only work on some linux and mac devices. To install two_do just clone this repository and open your terminal. Change into the repo directory and do the following. 
