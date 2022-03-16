@@ -59,6 +59,17 @@ def install_todo():
 
     if (len(sys.argv) == 1) and sys.argv[0] == "two_do.py":
         os.system("python3 -m PyInstaller --onefile two_do.py")
-        os.system("IFS=$'\n' read -rd ':' -a array <<< '$PATH'")
+        #os.system("IFS=$'\n' read -rd ':' -a array <<< '$PATH'")
         os.system("chmod +x dist/two_do")
-        os.system("sudo cp dist/two_do $array")
+        #os.system("sudo cp dist/two_do $array")
+        os.system("sudo cp dist/two_do /usr/local/bin/")
+
+    if os.path.exists("/usr/local/bin/two_do"):
+        print("Installation for two_do is currently very unstable\nUsers are welcome to make contirbutions to the two_do repo to fix these installation issues\n")
+        sys.exit("INSTALL COMPLETE")
+    else:
+        print("Installation for two_do is currently very unstable\n Please wait for this to be fixed\nUsers are also welcome to make contirbutions to the two_do repo to fix these installation issues\n")
+        sys.exit("INSTALL FAILED")
+
+
+    
