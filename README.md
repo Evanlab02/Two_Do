@@ -43,3 +43,37 @@ $ python3 two_do.py
 ```  
 
 This should do a bunch of commands for you to hopefully sucessfully install two_do as binary you can access anywhere.
+
+
+## 2. Running Two Do For The First Time
+
+### 2.1 Install Prompt
+
+When running two_do for the first time regardless of the installation method, it will display a prompt that looks as follows.
+
+```
+Install/Reset todo program?[Installation will only work on some Linux devides)(y\n):
+```
+
+If you just press enter it will proceed with the installation process. This is primarily to just create the folders and files where your goals will be stored on your computer. After this it should display a bunch of output, you just need to worry about the last line that should say...
+
+```
+INSTALL COMPLETE
+```
+
+### 2.2 Running the program after installation again
+
+When you run the program again it should not have a installation prompt, it should display the main menu that should look like this. 
+
+```
+[?] Main Menu: Complete Goal
+ > Complete Goal
+   View Goals
+   Add Goal
+   View Goal Classifications
+   Add Goal Classification
+   Reset
+   Exit
+```
+
+If this menu is displayed, your installation was sucessful and your program is working!!
