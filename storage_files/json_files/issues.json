@@ -1,0 +1,5 @@
+{
+    "0": {"my_issue": "Close this issue 0", "closed":false, "progress_of_issue": "Completed"},
+    "1": {"my_issue": "Close this issue 1", "closed":false, "progress_of_issue": "Completed"},
+    "2": {"my_issue": "Close this issue 2", "closed":false, "progress_of_issue": "Completed"}
+}
